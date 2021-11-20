@@ -1,0 +1,18 @@
+# isimal = input("İsiminiz Giriniz : ")
+#
+# for sayac in range(1, 11):
+#     print(isimal)
+
+# vize = int(input("Vize notunuzu giriniz : "))
+# final = int(input("Final notunuzu giriniz : "))
+#
+# ortalama = vize * (4 / 10) + final * (6 / 10)
+#
+# if ortalama == 50:
+#     print("Zor bela geçtin hadi hayırlısı")
+#
+# elif ortalama < 50:
+#     print("Sınıfta kaldın tebrikler.")
+#
+# else:
+#     print("Tebrikler sınıfı geçtin!")
