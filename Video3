@@ -1,0 +1,23 @@
+from random import * 
+random = randint(1, 100)
+sayac = 0
+
+while True:
+    sayi = int(input("1'den 100'e kadar bir sayı giriniz (0 oyunu bitirir.) : "))
+    sayac += 1
+
+    if sayi == 0:
+        print("Oyunu sonlandırdınız")
+        break
+    elif sayi < random:
+        print("Daha büyük bir sayı girmelisin")
+        continue
+    elif sayi > random:
+        print("Daha küçük bir sayı girmelisin")
+    else:
+        print("Tebrikler tahminin başarılı ! ")
+        print("Tahmin ettiğin sayı : {}".format(random))
+        print("Deneme sayın : {}".format(sayac))
+        break
+
+
